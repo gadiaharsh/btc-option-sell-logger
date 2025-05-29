@@ -1,0 +1,7 @@
+
+type: worker
+name: btc-option-sell-logger
+runtime: python
+buildCommand: pip install -r requirements.txt
+startCommand: python main.py
+plan: free
